@@ -1,0 +1,162 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.slider-content h1 {
+		font-size: 46px;
+		line-height: 65px
+	}
+	.slider-area {
+		height: 100vh
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.slider-content h1 {
+		font-size: 44px;
+		line-height: 58px
+	}
+	.slider-area {
+		height: 530px;
+		padding-top: 135px
+	}
+	.about-area,
+	.pricing-area,
+	.screen-slider-area {
+		padding: 70px 0
+	}
+	.download-area {
+		padding: 60px 0 50px
+	}
+	.download-btns a {
+		margin-bottom: 20px
+	}
+	.contact-flex-container {
+		display: block
+	}
+	.contact-flex-container>div {
+		padding-right: 80px
+	}
+	.contact-flex-container .contact-address {
+		margin-bottom: 30px;
+		padding-bottom: 30px
+	}
+}
+
+@media screen and (max-width:991px) {
+	.logo a img {
+		max-width: 127px
+	}
+	.logo {
+		margin: 27px 0 20px
+	}
+	.header-area {
+		background: rgba(0,0,0,0.8);
+		z-index: 9;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .3)
+	}
+	.slicknav_nav a {
+		color: #fff!important
+	}
+	.slicknav_nav a:hover {
+		background: #444
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+	.slider-content h1 {
+		font-size: 37px;
+		line-height: 54px
+	}
+	.slider-content p {
+		font-size: 14px
+	}
+	.slider-area {
+		height: auto;
+		min-height: 100vh;
+		padding-top: 137px;
+		padding-bottom: 66px
+	}
+	.about-area,
+	.download-area,
+	.screen-slider-area {
+		padding: 60px 0
+	}
+	.pricing-area {
+		padding: 60px 0 20px
+	}
+	.download-btns a {
+		margin-bottom: 20px
+	}
+	.contact-flex-container {
+		display: block;
+		padding: 0
+	}
+	.contact-flex-container>div {
+		padding-top: 40px;
+		padding-bottom: 60px
+	}
+	.contact-inner {
+		padding: 60px 0 0
+	}
+}
+
+@media only screen and (min-width:240px) and (max-width:480px) {
+	.slider-content h1 {
+		font-size: 22px;
+		line-height: 35px
+	}
+	.slider-content p {
+		font-size: 14px
+	}
+	.slider-area {
+		height: auto;
+		min-height: 100vh;
+		padding-top: 137px;
+		padding-bottom: 66px
+	}
+	.about-area,
+	.download-area,
+	.screen-slider-area {
+		padding: 60px 0
+	}
+	.about-content h2 {
+		font-size: 25px
+	}
+	.pricing-area {
+		padding: 60px 0 20px
+	}
+	.download-btns a {
+		margin-bottom: 20px
+	}
+	.section-title h2 {
+		font-size: 28px;
+		line-height: 35px
+	}
+	.contact-flex-container {
+		display: block;
+		padding: 0
+	}
+	.contact-flex-container>div {
+		padding-top: 40px;
+		padding-bottom: 20px
+	}
+	.contact-inner {
+		padding: 60px 0 0
+	}
+	.contact-flex-container .contact-form {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px
+	}
+	.footer-inner .fsocial li a {
+		height: 50px;
+		width: 50px;
+		line-height: 50px
+	}
+	.screen-slider img {
+		max-width: 300px;
+		margin: auto
+	}
+	#preloader {
+		display: none!important
+	}
+}
+
